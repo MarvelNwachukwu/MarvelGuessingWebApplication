@@ -1,3 +1,8 @@
 #app{
   text-align: center;
+  color: white;
+}
+
+body{
+  background: radial-gradient(circle at center, rgb(199, 102, 67), rgb(23, 99, 134));
 }

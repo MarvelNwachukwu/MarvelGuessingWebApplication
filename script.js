@@ -9,7 +9,7 @@ console.log(randomNumber);
 
 
 if (userInputToFloat === randomNumber){
- writeInDiv.innerHTML = `Brilliant minds will always win. I'm so proud of you, buddy. <br><br> DM me with a screenshot of this page, I owe you. `
+ writeInDiv.innerHTML = `Brilliant minds will always win. I'm so proud of you, ${Name}y. <br><br> DM me with a screenshot of this page, I owe you. `
 }else{
   writeInDiv.innerHTML = `Come on ${Name}, you can guess something better than ${UserInput}. By the way, the number was ${randomNumber}.<br><br><br> Why don't you try again.`
 };
